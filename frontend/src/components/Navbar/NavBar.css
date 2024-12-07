@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.logo {
+  height: 80px;
+}
+.navbar_menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  color: #49557e;
+}
+.navbar_menu li {
+  cursor: pointer;
+}
+.navbar_right {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.signIn_button {
+  padding: 10px 15px;
+  background: transparent;
+  border: 2px;
+  border: solid orange;
+  border-radius: 20px;
+  cursor: pointer;
+}
